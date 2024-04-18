@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 40px 0px;
+}
+.main {
+    width: 90%; /* Adjusted width for responsiveness */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    padding: 20px;
+    /* box-sizing: border-box; Ensures padding doesn't affect overall width */
+}
+.filterBox {
+    flex-basis: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+/* .category_list {
+    margin-top: 20px;
+}
+.category_list label {
+    display: block;
+    padding: 6px 0px;
+} */
+.product {
+    flex-basis: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+.productItems{
+    /* padding: 5px; */
+    flex-basis: 27%;
+    margin:15px;
+    border-radius: 20px 20px;
+    box-shadow: 0px 0px 5px 2px #ccc;  
+}
+
+.productItems img{ 
+     width:98%;
+     margin:2px 2px;
+     /* border-radius: 10px 10px; */
+
+     height:220px;
+     /* box-shadow: 2px 2px 2px 2px rgb(187, 185, 185);   */
+
+}
+.productItems:hover {
+    box-shadow: 5px 5px 5px 5px rgb(184, 179, 179);  
+}
+.productItems h6{
+    color: rgb(57, 4, 4);
+    font-weight: bold; 
+    text-align: center;
+}
+.productItems p{
+    font-weight: bold; 
+    margin-left:   35px;
+
+
+}
+
+.btn{
+    /* background-color: cadetblue; */
+    padding: 9px;
+    margin: 12px;
+    width: 120px;
+}
+.btn:hover{
+    box-shadow: 5px 5px 5px 5px rgb(128, 125, 125);  
+
+}
